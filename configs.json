@@ -1,0 +1,18 @@
+{
+"location": "滨江区", // 输入地区
+"adm": "杭州市",  // 选填,城市的上级行政区划，可设定只在某个行政区划范围内进行搜索，用于排除重名城市或对结果进行过滤   
+"weatherIndex": "1", //天气指数，具体查看https://dev.qweather.com/docs/resource/indices-info/
+"fullInLoveDate": "2000-01-01", // 纪念日时间
+"name": "1",   // 推送用户1
+"name2": "2",   // 推送用户2
+"birthday": "2000-01-01", // 推送用户1的生日 只支持输入农历
+"birthday2": "2000-01-01",// 推送用户2的生日 只支持输入农历
+"key": "70add67deb8d8d33", // 和风天气Key获取，https://id.qweather.com/#/
+
+// 以下数据获取：http://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index
+"appId": "wx8689e197bf366e60",
+"appSecret": "436dbfdf6316716b9948aad5428ec70e",
+"templateId": "1ZZGuERZX7E6w2AbaUGS718iiqnEiw4_iczFuVC4Zzw",
+"toUser": ["oZ3m07SyD9U4w0ZwwvFK_tnUOIPY","odW-45jDOf1pIwK0I"]
+"oneType": "d", // 一言接口,详情https://developer.hitokoto.cn/sentence/
+}
